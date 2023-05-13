@@ -6,12 +6,16 @@ import Searchbar from "./Searchbar";
 
 const Sharedoutlet = () => {
 return (
-    <div>
-      <Navbar />
-      <Searchbar/>
+  <div className="Sharedlayout">
+    <Navbar />
+    <Searchbar />
 
-      <Outlet />
+    <Outlet />
+    <div>
+      
+      <Searchbar />
     </div>
-  );
+  </div>
+);
 };
 export default Sharedoutlet;

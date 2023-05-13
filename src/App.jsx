@@ -1,6 +1,7 @@
 import { Route,Routes,BrowserRouter } from "react-router-dom";
 import {Home, Movies, Tvshows, Bookmark } from './Pages'
 import Sharedoutlet from "./Componennts/Sharedoutlet";
+import './App.css'
 
 
 function App() {

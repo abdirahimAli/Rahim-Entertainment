@@ -5,6 +5,39 @@
   text-align: center;
 }
 
+/* MY Styling */
+/* .searchbar{
+  display: block;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -17,6 +50,9 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+
+
+
 
 @keyframes logo-spin {
   from {

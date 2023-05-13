@@ -7,7 +7,7 @@ const Globalcontext = createContext();
 export const useGlobalcontext = ()=> useContext(Globalcontext);
 
 const AppContext = ({children}) => {
-const [show,setShow] = useState("ironman");
+const [show,setShow] = useState("");
  console.log(show);
 
  

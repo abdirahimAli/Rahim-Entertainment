@@ -1,5 +1,6 @@
 import React from 'react'
 import { useGlobalcontext } from "../Componennts/Context";
+import {BsSearch} from 'react-icons/Bs'
 // import styled from "styled-components";
 
 // const hadleshow = (e)=>{
@@ -11,28 +12,24 @@ import { useGlobalcontext } from "../Componennts/Context";
 const Searchbar = () => {
   const { show,setShow } = useGlobalcontext();
   return (
-    // <search_bar_style>
-      <div>
-        Searchbar
-        <input
-          type="text"
-          className="search-bar"
-          value={show}
-          onChange={(e) => {
-            setShow(e.target.value);
-          }}
-        ></input>
-      </div>
-    // </search_bar_style>
+    <div className="searchbar">
+      <span className='searchbar-icon'>
+        <BsSearch />
+      </span>
+      <input
+        type="text"
+        placeholder="search for movies or tv shows"
+        className="search-bar"
+        value={show}
+        onChange={(e) => {
+          setShow(e.target.value);
+        }}
+      ></input>
+    </div>
   );
 }
 
 
-// const Search_bar_style = styled.div`
-//   height: 5rem;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// `;
+
 
 export default Searchbar
