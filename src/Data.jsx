@@ -2,18 +2,17 @@ const showsData = [
   {
     key: 1,
     title: "Beyond Earth",
-    thumbnail: "../assets/thumbnails/beyond-earth/regular/small.jpg",
-    // {
-    //   trending: {
-    //     small: "../assets/thumbnails/beyond-earth/trending/small.jpg",
-    //     large: "../assets/thumbnails/beyond-earth/trending/large.jpg",
-    //   },
-    //   regular: {
-    //     small: '../assets/thumbnails/beyond-earth/regular/small.jpg',
-    //     medium: "../assets/thumbnails/beyond-earth/regular/medium.jpg",
-    //     large: "../assets/thumbnails/beyond-earth/regular/large.jpg",
-    //   },
-    // },
+    thumbnail: {
+      trending: {
+        small: "../assets/thumbnails/beyond-earth/trending/small.jpg",
+        large: "../assets/thumbnails/beyond-earth/trending/large.jpg",
+      },
+      regular: {
+        small: "../assets/thumbnails/beyond-earth/regular/small.jpg",
+        medium: "../assets/thumbnails/beyond-earth/regular/medium.jpg",
+        large: "../assets/thumbnails/beyond-earth/regular/large.jpg",
+      },
+    },
     year: 2019,
     category: "Movie",
     rating: "PG",
@@ -61,26 +60,6 @@ const showsData = [
     isTrending: true,
   },
   {
-    key: 4,
-    title: "1998",
-    thumbnail: {
-      trending: {
-        small: "../assets/thumbnails/1998/trending/small.jpg",
-        large: "../assets/thumbnails/1998/trending/large.jpg",
-      },
-      regular: {
-        small: "../assets/thumbnails/1998/regular/small.jpg",
-        medium: "./assets/thumbnails/1998/regular/medium.jpg",
-        large: "../assets/thumbnails/1998/regular/large.jpg",
-      },
-    },
-    year: 2021,
-    category: "Movie",
-    rating: "18+",
-    isBookmarked: false,
-    isTrending: true,
-  },
-  {
     key: 5,
     title: "Dark Side of the Moon",
     thumbnail: {
@@ -98,6 +77,26 @@ const showsData = [
     category: "TV Series",
     rating: "PG",
     isBookmarked: true,
+    isTrending: true,
+  },
+  {
+    key: 4,
+    title: "1998",
+    thumbnail: {
+      trending: {
+        small: "../assets/thumbnails/1998/trending/small.jpg",
+        large: "../assets/thumbnails/1998/trending/large.jpg",
+      },
+      regular: {
+        small: "../assets/thumbnails/1998/regular/small.jpg",
+        medium: "./assets/thumbnails/1998/regular/medium.jpg",
+        large: "../assets/thumbnails/1998/regular/large.jpg",
+      },
+    },
+    year: 2021,
+    category: "Movie",
+    rating: "18+",
+    isBookmarked: false,
     isTrending: true,
   },
 

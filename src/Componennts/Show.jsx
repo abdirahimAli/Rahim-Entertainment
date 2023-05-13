@@ -1,31 +1,28 @@
-import React from 'react'
- import img from '../assets/thumbnails/beyond-earth/regular/small.jpg'
- import showsData from "../Data";
+import React from "react";
+import img from "../assets/thumbnails/beyond-earth/regular/small.jpg";
+import showsData from "../Data";
 
 const Show = ({ title, thumbnail, year, category, rating }) => {
-//   const { title, thumbnail, year, category, rating } = show;
-//   const { trending, regular } = thumbnail;
-//    const { small } = regular;
-    //  console.log("thumbnails",regular.small);
+  //   const { title, thumbnail, year, category, rating } = show;
+  //   const { trending, regular } = thumbnail;
+  //    const { small } = regular;
+  //  console.log("thumbnails",regular.small);
   //   console.log("title", title);
   //   console.log("category", category);
   return (
-    <div>
+    <div className="show">
       <div>
-        <div>
-          <img src={thumbnail} />
-          <img src={thumbnail} alt={title} />
-          {console.log("thumbnails", thumbnail)}
-        </div>
-        <div>
-          <span> {year}</span>
-          <span> {category}</span>
-          <span> {rating}</span>
-          <h3> {title}</h3>
-        </div>
+        <img src={img} alt={title} />
+        {/* {console.log("thumbnails", thumbnail)} */}
+      </div>
+      <div className="show-div-properties">
+        <span className="show-properties"> {year}.</span>
+        <span className="show-properties"> {category}.</span>
+        <span className="show-properties"> {rating}</span>
+        <h3 className="show-properties_title "> {title}</h3>
       </div>
     </div>
   );
 };
 
-export default Show
+export default Show;
