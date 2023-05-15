@@ -1,6 +1,5 @@
 import React from "react";
-import img from "../assets/thumbnails/beyond-earth/regular/small.jpg";
-import showsData from "../Data";
+import img from "../assets/thumbnails/beyond-earth/regular/large.jpg";
 
 const Show = ({ title, thumbnail, year, category, rating }) => {
   //   const { title, thumbnail, year, category, rating } = show;
@@ -11,7 +10,7 @@ const Show = ({ title, thumbnail, year, category, rating }) => {
   //   console.log("category", category);
   return (
     <div className="show">
-      <div>
+      <div className="img-container">
         <img src={img} alt={title} />
         {/* {console.log("thumbnails", thumbnail)} */}
       </div>

@@ -7,11 +7,11 @@ const Globalcontext = createContext();
 export const useGlobalcontext = () => useContext(Globalcontext);
 
 const AppContext = ({ children }) => {
-  const [searchshow, setSearchShow] = useState("hhooho");
+  const [catagoreyfilter, setCatagoreyfilter] = useState("hhooho");
 
-console.log(searchshow);
+// console.log(searchshow);
   return (
-    <Globalcontext.Provider value={{ searchshow, setSearchShow }}>
+    <Globalcontext.Provider value={{ catagoreyfilter, setCatagoreyfilter }}>
       {children}
     </Globalcontext.Provider>
   );

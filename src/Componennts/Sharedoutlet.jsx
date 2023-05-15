@@ -5,7 +5,6 @@ import Searchbar from "./Searchbar";
 import Showlist from "../Componennts/Showlist";
 import showsData from "../Data";
 
-import { useGlobalcontext } from "../Componennts/Context";
 
 const Sharedoutlet = () => {
   return (

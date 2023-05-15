@@ -1,35 +1,25 @@
-import React from 'react'
-import { useGlobalcontext } from "../Componennts/Context";
-import {BsSearch} from 'react-icons/Bs'
-// import styled from "styled-components";
-
-// const hadleshow = (e)=>{
-// console.log('working')
-// // setShow(e.target.value)
-// console.log(e);
-// }
+import React from "react";
+import { BsSearch } from "react-icons/Bs";
+import { useGlobalcontext2 } from "../Componennts/Searchingcontex";
 
 const Searchbar = () => {
-  const { show,setShow } = useGlobalcontext();
+  const { search, setSearch } = useGlobalcontext2();
   return (
     <div className="searchbar">
-      <span className='searchbar-icon'>
+      <span className="searchbar-icon">
         <BsSearch />
       </span>
       <input
         type="text"
         placeholder="search for movies or tv shows"
         className="search-bar"
-        value={show}
+        value={search}
         onChange={(e) => {
-          setShow(e.target.value);
+          setSearch(e.target.value);
         }}
       ></input>
     </div>
   );
-}
+};
 
-
-
-
-export default Searchbar
+export default Searchbar;

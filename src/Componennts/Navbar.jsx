@@ -11,7 +11,7 @@ import showsData from "../Data";
 import { useGlobalcontext } from "../Componennts/Context";
 
 const Navbar = () => {
-  const { searchshow, setSearchShow } = useGlobalcontext();
+  const { catagoreyfilter, setCatagoreyfilter } = useGlobalcontext();
 
   return (
     <nav>
@@ -22,17 +22,17 @@ const Navbar = () => {
       <Link
         className="home-nav"
         to="/"
-        onClick={() => setSearchShow("home-nav")}
+        onClick={() => setCatagoreyfilter("home-nav")}
       >
         <AiOutlineHome />
       </Link>
-      <Link to="/movies" onClick={() => setSearchShow("movies")}>
+      <Link to="/movies" onClick={() => setCatagoreyfilter("movies")}>
         <MdLocalMovies />
       </Link>
-      <Link to="/tvshows" onClick={() => setSearchShow("tvshows")}>
+      <Link to="/tvshows" onClick={() => setCatagoreyfilter("tvshows")}>
         <RiComputerFill />
       </Link>
-      <Link to="/bookmark" onClick={() => setSearchShow("bookmark")}>
+      <Link to="/bookmark" onClick={() => setCatagoreyfilter("bookmark")}>
         <BsFillBookmarkFill />
       </Link>
 
