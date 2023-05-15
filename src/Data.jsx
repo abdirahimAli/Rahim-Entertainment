@@ -18,6 +18,7 @@ const showsData = [
     rating: "PG",
     isBookmarked: false,
     isTrending: true,
+    small: "/assets/thumbnails/beyond-earth/regular/small.jpg",
   },
   {
     key: 2,
@@ -38,6 +39,7 @@ const showsData = [
     rating: "PG",
     isBookmarked: false,
     isTrending: true,
+    small: "/assets/thumbnails/bottom-gear/regular/small.jpg",
   },
   {
     key: 3,
@@ -58,6 +60,7 @@ const showsData = [
     rating: "E",
     isBookmarked: false,
     isTrending: true,
+    small: "/assets/thumbnails/undiscovered-cities/regular/small.jpg",
   },
   {
     key: 5,
@@ -78,6 +81,7 @@ const showsData = [
     rating: "PG",
     isBookmarked: true,
     isTrending: true,
+    small: "/assets/thumbnails/dark-side-of-the-moon/regular/small.jpg",
   },
   {
     key: 4,
@@ -98,6 +102,7 @@ const showsData = [
     rating: "18+",
     isBookmarked: false,
     isTrending: true,
+    small: "/assets/thumbnails/1998/regular/small.jpg",
   },
 
   {
@@ -115,6 +120,7 @@ const showsData = [
     rating: "E",
     isBookmarked: false,
     isTrending: false,
+    small: "/assets/thumbnails/the-great-lands/regular/small.jpg",
   },
   {
     key: 7,
@@ -131,6 +137,7 @@ const showsData = [
     rating: "PG",
     isBookmarked: false,
     isTrending: false,
+    small: "/assets/thumbnails/the-diary/regular/small.jpg",
   },
   {
     key: 8,
@@ -147,6 +154,7 @@ const showsData = [
     rating: "18+",
     isBookmarked: true,
     isTrending: false,
+    small: "/assets/thumbnails/earths-untouched/regular/small.jpg",
   },
   {
     key: 9,
@@ -163,6 +171,7 @@ const showsData = [
     rating: "E",
     isBookmarked: false,
     isTrending: false,
+    small: "/assets/thumbnails/no-land-beyond/regular/small.jpg",
   },
   {
     key: 10,
@@ -179,6 +188,7 @@ const showsData = [
     rating: "PG",
     isBookmarked: false,
     isTrending: false,
+    small: "/assets/thumbnails/during-the-hunt/regular/small.jpg",
   },
   {
     key: 11,
@@ -195,6 +205,7 @@ const showsData = [
     rating: "18+",
     isBookmarked: false,
     isTrending: false,
+    small: "/assets/thumbnails/autosport-the-series/regular/small.jpg",
   },
   {
     key: 12,
@@ -211,6 +222,7 @@ const showsData = [
     rating: "E",
     isBookmarked: false,
     isTrending: false,
+    small: "/assets/thumbnails/same-answer-2/regular/small.jpg",
   },
   {
     key: 13,
@@ -227,6 +239,7 @@ const showsData = [
     rating: "PG",
     isBookmarked: false,
     isTrending: false,
+    small: "/assets/thumbnails/below-echo/regular/small.jpg",
   },
   {
     key: 14,
@@ -235,7 +248,7 @@ const showsData = [
       regular: {
         small: "../assets/thumbnails/the-rockies/regular/small.jpg",
         medium: "../assets/thumbnails/the-rockies/regular/medium.jpg",
-        large: "../assets/thumbnails/the-rockies/regular/large.jpg",
+        large: "../assets/thumbnails/the-rockies/large.jpg",
       },
     },
     year: 2015,
@@ -243,6 +256,7 @@ const showsData = [
     rating: "E",
     isBookmarked: true,
     isTrending: false,
+    small: "/assets/thumbnails/the-rockies/regular/small.jpg",
   },
   {
     key: 15,
@@ -259,6 +273,7 @@ const showsData = [
     rating: "PG",
     isBookmarked: true,
     isTrending: false,
+    small: "/assets/thumbnails/relentless/regular/small.jpg",
   },
   {
     key: 16,
@@ -275,6 +290,7 @@ const showsData = [
     rating: "18+",
     isBookmarked: false,
     isTrending: false,
+    small: "/assets/thumbnails/community-of-ours/regular/small.jpg",
   },
   {
     key: 17,
@@ -291,6 +307,7 @@ const showsData = [
     rating: "PG",
     isBookmarked: false,
     isTrending: false,
+    small: "/assets/thumbnails/van-life/regular/small.jpg",
   },
   {
     key: 18,
@@ -307,6 +324,7 @@ const showsData = [
     rating: "PG",
     isBookmarked: true,
     isTrending: false,
+    small: "/assets/thumbnails/the-heiress/regular/small.jpg",
   },
   {
     key: 19,
@@ -323,6 +341,7 @@ const showsData = [
     rating: "18+",
     isBookmarked: true,
     isTrending: false,
+    small: "/assets/thumbnails/off-the-track/regular/small.jpg",
   },
   {
     key: 20,
@@ -339,6 +358,7 @@ const showsData = [
     rating: "E",
     isBookmarked: false,
     isTrending: false,
+    small: "/assets/thumbnails/whispering-hill/regular/small.jpg",
   },
   {
     key: 21,
@@ -355,6 +375,7 @@ const showsData = [
     rating: "PG",
     isBookmarked: false,
     isTrending: false,
+    small: "/assets/thumbnails/112/regular/small.jpg",
   },
   {
     key: 23,
@@ -371,6 +392,7 @@ const showsData = [
     rating: "E",
     isBookmarked: true,
     isTrending: false,
+    small: "/assets/thumbnails/lone-heart/regular/small.jpg",
   },
   {
     key: 24,
@@ -387,6 +409,7 @@ const showsData = [
     rating: "PG",
     isBookmarked: false,
     isTrending: false,
+    small: "/assets/thumbnails/production-line/regular/small.jpg",
   },
   {
     key: 25,
@@ -403,6 +426,7 @@ const showsData = [
     rating: "E",
     isBookmarked: true,
     isTrending: false,
+    small: "/assets/thumbnails/dogs/regular/small.jpg",
   },
   {
     key: 26,
@@ -419,6 +443,7 @@ const showsData = [
     rating: "PG",
     isBookmarked: false,
     isTrending: false,
+    small: "/assets/thumbnails/asia-in-24-days/regular/small.jpg",
   },
   {
     key: 27,
@@ -435,6 +460,7 @@ const showsData = [
     rating: "PG",
     isBookmarked: false,
     isTrending: false,
+    small: "/assets/thumbnails/the-tasty-tour/regular/small.jpg",
   },
   {
     key: 28,
@@ -451,6 +477,7 @@ const showsData = [
     rating: "18+",
     isBookmarked: true,
     isTrending: false,
+    small: "/assets/thumbnails/darker/regular/small.jpg",
   },
   {
     key: 29,
@@ -467,6 +494,7 @@ const showsData = [
     rating: "18+",
     isBookmarked: false,
     isTrending: false,
+    small: "/assets/thumbnails/beyond-earth/regular/small.jpg",
   },
   {
     key: 30,
@@ -483,6 +511,7 @@ const showsData = [
     rating: "PG",
     isBookmarked: true,
     isTrending: false,
+    small: "/assets/thumbnails/mission-saturn/regular/small.jpg",
   },
 ];
 export default showsData;

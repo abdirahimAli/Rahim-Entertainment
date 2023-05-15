@@ -5,7 +5,7 @@ import showsData from "../Data";
 import { useGlobalcontext2 } from "../Componennts/Searchingcontex";
 
 const Bookmark = () => {
-  const { search, setSearch } = useGlobalcontext2();
+  const { search } = useGlobalcontext2();
 
   // Rendring Shows //
   let Bookmarks = showsData.filter((show) => {

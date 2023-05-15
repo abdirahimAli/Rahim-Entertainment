@@ -1,17 +1,13 @@
 import React from "react";
-import img from "../assets/thumbnails/beyond-earth/regular/large.jpg";
+import  img from "/asset/small.jpg";
 
-const Show = ({ title, thumbnail, year, category, rating }) => {
-  //   const { title, thumbnail, year, category, rating } = show;
-  //   const { trending, regular } = thumbnail;
-  //    const { small } = regular;
-  //  console.log("thumbnails",regular.small);
-  //   console.log("title", title);
-  //   console.log("category", category);
+const Show = ({ title, small, year, category, rating }) => {
   return (
     <div className="show">
       <div className="img-container">
-        <img src={img} alt={title} />
+        <span>
+          <img src={small} alt={title} />
+        </span>
         {/* {console.log("thumbnails", thumbnail)} */}
       </div>
       <div className="show-div-properties">

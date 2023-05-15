@@ -5,12 +5,9 @@ import showsData from "../Data";
 import { useGlobalcontext2 } from "../Componennts/Searchingcontex";
 
 const Tvshows = () => {
-  const { search, setSearch } = useGlobalcontext2();
+  const { search } = useGlobalcontext2();
 
-  // For searched content //
-  const searchedcontent = showsData.filter((show) => {
-    return show.title == search;
-  });
+  //Searching for TV shows category  //
 
   let Teleshows = showsData.filter((show) => {
     return show.category == "TV Series";

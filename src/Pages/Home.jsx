@@ -1,23 +1,10 @@
-import React, { useState } from "react";
-import { useGlobalcontext } from "../Componennts/Context";
 import styled from "styled-components";
 import Showlist from "../Componennts/Showlist";
 import showsData from "../Data";
 import { useGlobalcontext2 } from "../Componennts/Searchingcontex";
 
 const Home = () => {
-  const { search, setSearch } = useGlobalcontext2();
-  // change first letter into upper case //
-  // var a = search.split(" ");
-
-  // let c = a[0].toUpperCase();
-  // let b=0;
-  // (a.length<2) ? b = search.replace(a[0], c) : null;
-
-  // console.log('bb', b);
-  // a = [];
-
-  // setSearch(b)
+  const { search} = useGlobalcontext2();
 
   // For Trending content //
   let Trendingshows = showsData.filter((show) => {
@@ -50,16 +37,6 @@ const Home = () => {
     Recommendedshows.push(array[i]);
   }
 
-  // For searched content //
-  // const searchedcontent = showsData.filter((show) => {
-  //   return show.title == search;
-  // });
-
-  // if (searchedcontent[0]) {
-  //   Trendingshows = searchedcontent;
-  //   console.log("check", searchedcontent);
-  // }
-
   // capitalize function //
   const capitalize_first_letter = (search) => {
     let b = search.slice(0, 1);
@@ -77,7 +54,8 @@ const Home = () => {
     const Length = search.length;
     return char.slice(0, Length) == capitalize_first_letter(search);
   });
-  // console.log("testing", checkletters);
+
+  // Rendring section //
 
   return (
     <Homepage>
